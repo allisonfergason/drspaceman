@@ -34,9 +34,6 @@ p {
   color: white;
 }
 footer {
-  display: grid;
-  place-items: center;
-  text-align: center;
   padding-top: 50px;
 }
 h1 {
@@ -45,7 +42,7 @@ h1 {
 #padding {
   height: 70px;
 }
-#welcome-section, #projects {
+#welcome-section, #projects, #info {
   display: grid;
   place-items: center;
 }
