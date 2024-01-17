@@ -1,0 +1,51 @@
+#header {
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+#navbar a {
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#divvy {
+  height: 10px;
+}
+img {
+  width: 500px;
+  max-width: 100%;
+}
+#imgdiv {
+  display: grid;
+  place-items: center;
+  color: white;
+  padding-top: 20px;
+}
+* {
+  background: #23395d;
+}
+p {
+  color: white;
+  font-size: 18;
+  width: 80%;
+  text-align: center;
+}
+#profile-link {
+  color: white;
+}
+footer {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+h1 {
+  text-align: center;
+}
+#padding {
+  height: 70px;
+}
+#welcome-section, #projects {
+  display: grid;
+  place-items: center;
+}
