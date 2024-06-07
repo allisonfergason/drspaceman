@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="spreadsheet" href="styles.css">
+    </head>
+  <body>
+    <div class="container">
+    <h1 id="title">Appointments</h1>
+    <p id="description">Fill out this form to schedule an appointment today!</p>
+    <form id="survey-form"> 
+      <fieldset>
+    <label for="concerns">What are your concerns?
+          <textarea id="concerns" name="concerns" rows="3" cols="30" placeholder="My toenails are growing far too quickly..."></textarea>
+        </label>
+     <label id="name-label"> Name</label> <input id="name" type="text" required placeholder="Danny Devito">
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder="masterdiamond110@gmail.com" required>
+      <label id="number-label">Phone Number
+      <input id="number" placeholder="669-669-9996" type="number" min="1" max="89">
+    <label id="dropdown-label">Preferred method of communication:</label>
+    <select id="dropdown">
+       <option value="">(select one)</option>
+            <option value="1">Phone</option>
+            <option value="2">Email</option>
+            <option value="3">Carrier Pigeon</option>
+            <option value="4">Sensual Whisper</option>
+            <input id="submit" type="submit">
+            </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
